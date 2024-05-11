@@ -9,7 +9,7 @@ public class Internet implements NavegadorInternet {
     }
 
     public void adicionarNovaAba() {
-        System.out.println("Adicionando nova aba");
+        System.out.println("Adicionando nova aba.");
     }
 
     public void atualizarPagina() {

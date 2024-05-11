@@ -1,17 +1,17 @@
 package dispositivoMovel;
 
-import dispositivoMovel.apps.Internet;
-import dispositivoMovel.apps.Ipod;
-import dispositivoMovel.apps.Phone;
 import dispositivoMovel.interfaces.AparelhoTelefonico;
 import dispositivoMovel.interfaces.NavegadorInternet;
 import dispositivoMovel.interfaces.ReprodutorMusical;
+import dispositivoMovel.iphone.Iphone;
 
 import java.util.Scanner;
 
-public abstract class Iphone implements AparelhoTelefonico, NavegadorInternet, ReprodutorMusical {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        Iphone iphone = new Iphone();
 
         while (true) {
             System.out.println("Qual o app escolhido? ");
@@ -24,19 +24,19 @@ public abstract class Iphone implements AparelhoTelefonico, NavegadorInternet, R
 
             switch (app) {
                 case 1:
-                    Ipod ipod = new Ipod();
+                    ReprodutorMusical ipod = iphone;
                     ipod.selecionarMusica();
                     ipod.tocar();
                     ipod.pausar();
                     break;
                 case 2:
-                    Phone phone = new Phone();
+                    AparelhoTelefonico phone = iphone;
                     phone.ligar();
                     phone.atender();
                     phone.inciarCorreioVoz();
                     break;
                 case 3:
-                    Internet internet = new Internet();
+                    NavegadorInternet internet = iphone;
                     internet.exibirPagina();
                     internet.atualizarPagina();
                     internet.adicionarNovaAba();

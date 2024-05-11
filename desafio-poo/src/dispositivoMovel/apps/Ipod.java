@@ -5,14 +5,14 @@ import dispositivoMovel.interfaces.ReprodutorMusical;
 public class Ipod implements ReprodutorMusical {
 
     public void tocar() {
-        System.out.println("Ipod tocando.");
+        System.out.println("Tocando música.");
     }
 
     public void pausar() {
-        System.out.println("Ipod pausando.");
+        System.out.println("Pausando música.");
     }
 
     public void selecionarMusica() {
-        System.out.println("Ipod selecionando musica.");
+        System.out.println("Selecionando música.");
     }
 }
