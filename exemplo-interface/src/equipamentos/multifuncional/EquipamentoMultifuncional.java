@@ -1,4 +1,4 @@
-package equipamentos.multifuncional;
+ package equipamentos.multifuncional;
 
 import equipamentos.copiadora.Copiadora;
 import equipamentos.digitalizadora.Digitalizadora;
