@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>dispositivoMovel.iphone.Iphone</OriginalElement>
+  <nodes>
+    <node x="35.5" y="201.0">dispositivoMovel.iphone.Iphone</node>
+    <node x="397.0" y="-14.5">dispositivoMovel.interfaces.ReprodutorMusical</node>
+    <node x="182.5" y="513.0">dispositivoMovel.apps.Phone</node>
+    <node x="155.5" y="-14.5">dispositivoMovel.interfaces.AparelhoTelefonico</node>
+    <node x="-104.5" y="513.0">dispositivoMovel.apps.Internet</node>
+    <node x="-104.5" y="-14.5">dispositivoMovel.interfaces.NavegadorInternet</node>
+    <node x="400.0" y="273.0">dispositivoMovel.apps.Ipod</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dispositivoMovel.iphone.Iphone" target="dispositivoMovel.interfaces.AparelhoTelefonico" relationship="REALIZATION">
+      <point x="0.0" y="-141.0" />
+      <point x="141.0" y="142.0" />
+      <point x="261.0" y="142.0" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="dispositivoMovel.iphone.Iphone" target="dispositivoMovel.interfaces.NavegadorInternet" relationship="REALIZATION">
+      <point x="0.0" y="-141.0" />
+      <point x="141.0" y="182.0" />
+      <point x="1.0" y="182.0" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="dispositivoMovel.apps.Ipod" target="dispositivoMovel.interfaces.ReprodutorMusical" relationship="REALIZATION">
+      <point x="0.0" y="-69.0" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="dispositivoMovel.apps.Phone" target="dispositivoMovel.interfaces.AparelhoTelefonico" relationship="REALIZATION">
+      <point x="0.0" y="-69.0" />
+      <point x="281.0" y="182.0" />
+      <point x="261.0" y="182.0" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="dispositivoMovel.iphone.Iphone" target="dispositivoMovel.interfaces.ReprodutorMusical" relationship="REALIZATION">
+      <point x="0.0" y="-141.0" />
+      <point x="141.0" y="162.0" />
+      <point x="501.0" y="162.0" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="dispositivoMovel.apps.Internet" target="dispositivoMovel.interfaces.NavegadorInternet" relationship="REALIZATION">
+      <point x="0.0" y="-69.0" />
+      <point x="0.0" y="56.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.3002915451895043" showDependencies="false" x="260.0" y="328.0" />
+  <SelectedNodes>
+    <node>dispositivoMovel.interfaces.NavegadorInternet</node>
+    <node>dispositivoMovel.iphone.Iphone</node>
+    <node>dispositivoMovel.apps.Internet</node>
+    <node>dispositivoMovel.interfaces.ReprodutorMusical</node>
+    <node>dispositivoMovel.apps.Phone</node>
+    <node>dispositivoMovel.interfaces.AparelhoTelefonico</node>
+    <node>dispositivoMovel.apps.Ipod</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
