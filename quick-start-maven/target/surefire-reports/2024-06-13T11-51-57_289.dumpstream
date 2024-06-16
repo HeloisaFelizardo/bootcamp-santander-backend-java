@@ -1,0 +1,5 @@
+# Created at 2024-06-13T11:51:57.436
+Boot Manifest-JAR contains absolute paths in classpath 'D:\DEV\Bootcamp-Santander-Java\bootcamp-santander-backend-java\quick-start-maven\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
